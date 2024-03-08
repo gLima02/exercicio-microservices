@@ -1,0 +1,3 @@
+ input.value = input.value.replace(/\D/g, ''); // Remove todos os caracteres que não são dígitos
+ const regexCelular = /^(\d{2})(\d{5})(\d{4})$/; // Formato para celular: (DD) 9XXXX-XXXX
+ const regexFixo = /^(\d{2})(\d{4})(\d{4})$/; // Formato para telefone fixo: (DD) XXXX-XXXX
